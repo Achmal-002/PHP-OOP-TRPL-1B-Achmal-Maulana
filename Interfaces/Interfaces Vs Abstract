@@ -1,0 +1,8 @@
+HP - Interfaces vs. Abstract Classes
+Interface are similar to abstract classes. The difference between interfaces and abstract classes are:
+
+Interfaces cannot have properties, while abstract classes can
+All interface methods must be public, while abstract methods can be public or protected
+All methods in an interface are abstract, so they cannot be implemented in code and the abstract keyword is not necessary
+Classes can implement an interface while inheriting from another class at the same time
+Interfaces make it easy to use a variety of different classes in the same way. When one or more classes use the same interface, it is referred to as "polymorphism". 
